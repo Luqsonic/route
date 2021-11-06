@@ -9,7 +9,8 @@ import aiohttp
 from pathlib import Path
 from pathlib import Path
 from pyrogram import idle
-
+from os import getenv, environ
+from dotenv import load_dotenv
 
 from App.server import web_server
 from App.keepalive import ping_server
