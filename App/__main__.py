@@ -11,8 +11,8 @@ from pathlib import Path
 from pyrogram import idle
 
 
-from server import web_server
-from keepalive import ping_server
+from App.server import web_server
+from App.keepalive import ping_server
 from apscheduler.schedulers.background import BackgroundScheduler
 
 
