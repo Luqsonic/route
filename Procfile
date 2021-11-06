@@ -1,1 +1,1 @@
-web: python stream_routes.py
+web: python -m App
