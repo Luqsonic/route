@@ -34,7 +34,7 @@ APP_NAME = 'route0'
 ON_HEROKU = True
 FQDN = APP_NAME+'.herokuapp.com'
 URL = f"https://{FQDN}/"     
-PORT = 8080
+PORT = int(getenv('PORT',8080))
 
 async def start_services():
     print('----------------------------- DONE -----------------------------')
