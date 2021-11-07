@@ -3,3 +3,5 @@ apscheduler
 pyrogram
 python-dotenv
 tgcrypto
+pillow
+asyncio
